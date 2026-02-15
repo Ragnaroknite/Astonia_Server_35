@@ -2,15 +2,15 @@
  * Part of Astonia Server 3.5 (c) Daniel Brockhaus. Please read license.txt.
  */
 
-#define TICKS 24
-#define TICK (1000000ull / TICKS)
+#define TICKS 144 // number of ticks per second, used for all time calculations in server code. 144 is the original value, but it can be changed to e.g. 100 for easier calculations and less cpu usage
+#define TICK (1000000ull / TICKS) // length of a tick in microseconds, used for sleeping and time calculations
 
 #define ITEM_DECAY_TIME (5 * 60 * TICKS) // time an item which was placed on the ground takes before it gets destroyed
 #define PLAYER_BODY_DECAY_TIME (30 * 60 * TICKS) // time a player body takes before getting destroyed
-#define NPC_BODY_DECAY_TIME (5 * 60 * TICKS) // time a NPC body takes before getting destroyed
+#define NPC_BODY_DECAY_TIME (8 * 60 * TICKS) // time a NPC body takes before getting destroyed
 #define NPC_BODY_DECAY_TIME_AREA32 (15 * 60 * TICKS) // time a NPC body takes before getting destroyed (area 32)
 #define RESPAWN_TIME (1 * 60 * TICKS) // respawn time of NPCs - can be overriden by giving a respawn=xxx statement in the character definition
-#define LAGOUT_TIME (5 * 60 * TICKS) // time it takes to lag out (time difference between loss of connection and removal of character from server)
+#define LAGOUT_TIME (55 * 60 * TICKS) // time it takes to lag out (time difference between loss of connection and removal of character from server)
 #define REGEN_TIME (4 * TICKS) // time character has to be idle to start regenerating
 
 #define max(a, b) ((a) > (b) ? (a) : (b))
@@ -30,7 +30,7 @@
 #define MAXPASSWORD 16
 #define MAXEMAIL 80
 
-#define POWERSCALE 1000 // ch.hp = ch.value[0][V_HP] * POWERSCALE, same for endurance and mana
+#define POWERSCALE 1500 // ch.hp = ch.value[0][V_HP] * POWERSCALE, same for endurance and mana
 
 // define DIST if client.h wasn't loaded already
 #ifndef DIST
@@ -336,7 +336,7 @@ extern struct item *it;
 #define SM_FAST 1
 #define SM_STEALTH 2
 
-#define INVENTORYSIZE 70
+#define INVENTORYSIZE 144
 
 // driver data block definition
 struct data {
