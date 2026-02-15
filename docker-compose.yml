@@ -1,0 +1,39 @@
+services:
+  astonia35:
+    container_name: astonia35
+    build:
+      context: ./astonia_community_server35
+      dockerfile: Dockerfile
+    image: astonia35:latest
+    tty: true
+    stdin_open: true
+    depends_on:
+      - astonia35_db
+    volumes: 
+      - ./astonia_community_server35:/server
+    ports:
+      - "27584-27777:27584-27777"
+      - "8080-8090:8080-8090"
+    networks:
+      - astonia_net
+
+  astonia35_db:
+    container_name: astonia35_db
+    image: mariadb:10.6
+    environment:
+      MYSQL_ROOT_PASSWORD: tgbdwf3h
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_DATABASE: astonia
+      MYSQL_USER: astonia
+      MYSQL_PASSWORD: tgbdwf3h
+    volumes:
+      - ./mariadb_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - astonia_net
+
+networks:
+  astonia_net:
+    driver: bridge
+
