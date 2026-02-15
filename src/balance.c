@@ -54,7 +54,7 @@ int get_fight_skill(int cn) {
     if (it[an].flags & IF_SWORD) n = max(n, ch[cn].value[0][V_SWORD]);
     if (it[an].flags & IF_TWOHAND) n = max(n, ch[cn].value[0][V_TWOHAND]);
 
-	b = round(( m + n ) * 0.75);
+	b = ( m + n ) * 0.75;
 
 
     return b;
