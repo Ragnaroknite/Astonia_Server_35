@@ -7,6 +7,7 @@
 #include "talk.h"
 #include "btrace.h"
 #include "balance.h"
+#include "math.h"
 
 int get_fight_skill(int cn) {
     int in, an, m = 0 , n = 0 , b = 0;
@@ -54,7 +55,7 @@ int get_fight_skill(int cn) {
     if (it[an].flags & IF_SWORD) n = max(n, ch[cn].value[0][V_SWORD]);
     if (it[an].flags & IF_TWOHAND) n = max(n, ch[cn].value[0][V_TWOHAND]);
 
-	b = ( m + n ) * 0.75;
+	b = round(( m + n ) * 0.75);
 
 
     return b;
