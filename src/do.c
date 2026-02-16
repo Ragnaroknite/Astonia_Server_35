@@ -29,10 +29,10 @@
 #include "clan.h"
 #include "escape.h"
 
-#define DUR_COMBAT_ACTION 9 // ex 8 changed from 12 to 9
-#define DUR_MISC_ACTION 12 // ex 8
-#define DUR_USE_ACTION 8 // ex 8
-#define DUR_MAGIC_ACTION 12 // ex 8
+#define DUR_COMBAT_ACTION 48 // ex 8 changed from 12 to 9
+#define DUR_MISC_ACTION 56 // ex 8
+#define DUR_USE_ACTION 48 // ex 8
+#define DUR_MAGIC_ACTION 56 // ex 8
 
 // ******** Part I: Actions which take at least one full tick ********
 
