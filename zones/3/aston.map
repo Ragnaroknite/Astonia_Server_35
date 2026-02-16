@@ -176196,7 +176196,6 @@ flag=MF_NEUTRAL
 
 field="17,176"
 gsprite=20454
-it=depot4
 flag=MF_INDOORS
 flag=MF_NEUTRAL
 
@@ -183566,7 +183565,6 @@ flag=MF_NEUTRAL
 
 field="134,181"
 gsprite=20314
-it=depot3
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -184882,6 +184880,7 @@ flag=MF_NEUTRAL
 
 field="134,182"
 gsprite=20317
+it=depot1
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -186223,7 +186222,6 @@ flag=MF_NEUTRAL
 
 field="134,183"
 gsprite=20311
-it=depot1
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -191409,34 +191407,31 @@ flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="120,187"
-fsprite=40003
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="121,187"
-fsprite=40000
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="122,187"
-fsprite=40001
+gsprite=20332
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="123,187"
 fsprite=40002
@@ -191445,25 +191440,22 @@ flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="124,187"
-fsprite=40003
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="125,187"
-fsprite=40000
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="126,187"
 gsprite=793718589
@@ -192755,8 +192747,7 @@ gsprite=12017
 flag=MF_PEACE
 
 field="119,188"
-gsprite=12008
-fsprite=40001
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -192764,43 +192755,41 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,188"
-gsprite=20315
-fsprite=21331
-it=mr_walltorch_on_ds
-flag=MF_MOVEBLOCK
+gsprite=20333
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,188"
-gsprite=20316
+gsprite=20334
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,188"
-gsprite=20317
-it=depot4
+gsprite=20335
+fsprite=20158
+flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,188"
-gsprite=20315
-flag=MF_INDOORS
-flag=MF_PEACE
-flag=MF_NEUTRAL
-
-field="124,188"
-gsprite=20316
+gsprite=20333
 it=depot2
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
+field="124,188"
+gsprite=20334
+it=mr_walltorch_on_lh
+flag=MF_INDOORS
+flag=MF_PEACE
+flag=MF_NEUTRAL
+
 field="125,188"
-gsprite=12018
-fsprite=40001
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -192809,6 +192798,8 @@ flag=MF_PEACE
 
 field="126,188"
 gsprite=12096
+it=mr_walltorch_on_ds
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -194031,8 +194022,7 @@ gsprite=12011
 flag=MF_PEACE
 
 field="119,189"
-gsprite=12002
-fsprite=40000
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -194040,40 +194030,40 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,189"
-gsprite=20309
-fsprite=21334
-flag=MF_MOVEBLOCK
+gsprite=20327
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,189"
-gsprite=20310
+gsprite=20328
+ch=aston_trader
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,189"
-gsprite=20311
+gsprite=20329
+fsprite=20158
+flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,189"
-gsprite=20309
+gsprite=20327
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,189"
-gsprite=20310
+gsprite=20328
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,189"
-gsprite=12012
-fsprite=40000
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -195342,8 +195332,7 @@ gsprite=12014
 flag=MF_PEACE
 
 field="119,190"
-gsprite=12005
-fsprite=40003
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -195351,38 +195340,38 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,190"
-gsprite=20312
+gsprite=20330
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,190"
-gsprite=20313
+gsprite=20331
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,190"
-gsprite=20314
-ch=aston_trader
+gsprite=20332
+fsprite=20158
+flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,190"
-gsprite=20312
+gsprite=20330
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,190"
-gsprite=20313
+gsprite=20331
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,190"
-gsprite=20314
 it=mr_wood_door_ds
 flag=MF_INDOORS
 flag=MF_PEACE
@@ -196628,7 +196617,6 @@ gsprite=789524209
 flag=MF_PEACE
 
 field="119,191"
-gsprite=789589746
 fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
@@ -196637,37 +196625,38 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,191"
-gsprite=20315
+gsprite=20333
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,191"
-gsprite=20316
+gsprite=20334
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,191"
-gsprite=20317
+gsprite=20335
+fsprite=20158
+flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,191"
-gsprite=20315
+gsprite=20333
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,191"
-gsprite=20316
+gsprite=20334
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,191"
-gsprite=12018
 fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
@@ -197930,8 +197919,7 @@ gsprite=12001
 flag=MF_PEACE
 
 field="119,192"
-gsprite=12012
-fsprite=40001
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -197939,39 +197927,43 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,192"
-gsprite=20309
+gsprite=20327
 it=mr_walltorch_on_ds
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,192"
-gsprite=20310
+gsprite=20328
+ch=city_wesley
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,192"
-gsprite=20311
+gsprite=20329
+fsprite=20158
+flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,192"
-gsprite=20309
+gsprite=20327
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,192"
-gsprite=20310
+gsprite=20328
+it=mr_walltorch_on_lh
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,192"
 gsprite=12012
-fsprite=40001
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -197980,6 +197972,8 @@ flag=MF_PEACE
 
 field="126,192"
 gsprite=12090
+it=mr_walltorch_on_ds
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -199228,8 +199222,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,193"
-gsprite=12015
-fsprite=40000
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -199237,8 +199230,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,193"
-gsprite=12013
-fsprite=40003
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -199246,8 +199238,8 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="121,193"
-gsprite=789327598
-fsprite=40000
+gsprite=20331
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -199255,8 +199247,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="122,193"
-gsprite=12005
-fsprite=40001
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -199264,7 +199255,6 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="123,193"
-gsprite=12013
 fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
@@ -199273,8 +199263,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="124,193"
-gsprite=12014
-fsprite=40003
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -199282,15 +199271,13 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="125,193"
-gsprite=12155
-fsprite=40000
+gsprite=12012
+fsprite=40002
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="126,193"
 gsprite=12093
@@ -200511,8 +200498,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,194"
-gsprite=12008
-fsprite=40003
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -200520,76 +200506,68 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,194"
-gsprite=20315
-fsprite=21331
-it=mr_walltorch_on_ds
-flag=MF_MOVEBLOCK
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,194"
-gsprite=20316
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,194"
-gsprite=20317
-it=depot4
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,194"
-gsprite=20315
-flag=MF_INDOORS
-flag=MF_PEACE
-flag=MF_NEUTRAL
-
-field="124,194"
-gsprite=20316
+gsprite=12091
 it=depot2
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
-field="125,194"
-gsprite=12018
-fsprite=40003
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+field="124,194"
+gsprite=12091
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
+
+field="125,194"
+gsprite=12091
+flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,194"
-gsprite=793784128
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,194"
-gsprite=12097
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,194"
-gsprite=12098
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,194"
-gsprite=12096
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="130,194"
-gsprite=12097
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="131,194"
-gsprite=12098
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -201778,8 +201756,8 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,195"
-gsprite=12002
-fsprite=40002
+gsprite=12091
+ch=teach6
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -201787,48 +201765,43 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,195"
-gsprite=20309
-fsprite=21334
+gsprite=12091
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,195"
-gsprite=20310
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,195"
-gsprite=20311
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,195"
-gsprite=20309
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,195"
-gsprite=20310
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,195"
-gsprite=12012
-fsprite=40002
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
+gsprite=12091
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,195"
-gsprite=793784122
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -201838,12 +201811,12 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,195"
-gsprite=12092
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,195"
-gsprite=12090
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -201853,7 +201826,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="131,195"
-gsprite=12092
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -203028,79 +203001,74 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,196"
-gsprite=12005
-fsprite=40001
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12091
+ch=teach4
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,196"
-gsprite=20312
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,196"
-gsprite=20313
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,196"
-gsprite=20314
+gsprite=12091
 ch=aston_trader
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,196"
-gsprite=20312
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,196"
-gsprite=20313
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,196"
-gsprite=20314
-it=mr_wood_door_ds
-flag=MF_INDOORS
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,196"
-gsprite=793784125
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,196"
-gsprite=12094
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,196"
-gsprite=12095
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,196"
-gsprite=12093
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="130,196"
-gsprite=12094
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="131,196"
-gsprite=12095
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -204426,7 +204394,8 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,197"
-fsprite=59163
+gsprite=12175
+it=rich_wood_door2
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -204441,8 +204410,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,197"
-gsprite=789589746
-fsprite=40000
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -204450,71 +204418,67 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,197"
-gsprite=20315
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,197"
-gsprite=20316
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,197"
-gsprite=20317
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,197"
-gsprite=20315
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,197"
-gsprite=20316
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,197"
-gsprite=12018
-fsprite=40002
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
+gsprite=12091
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,197"
-gsprite=793784128
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,197"
-gsprite=12097
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,197"
-gsprite=12098
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,197"
-gsprite=12096
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="130,197"
-gsprite=12097
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="131,197"
-gsprite=12098
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -204820,7 +204784,6 @@ flag=MF_PEACE
 
 field="182,197"
 gsprite=17068
-it=depot4
 flag=MF_INDOORS
 flag=MF_PEACE
 
@@ -205785,48 +205748,43 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,198"
-gsprite=12012
-fsprite=40003
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12091
+ch=teach3
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,198"
-gsprite=20309
-it=mr_walltorch_on_ds
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,198"
-gsprite=20310
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,198"
-gsprite=20311
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,198"
-gsprite=20309
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,198"
-gsprite=20310
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,198"
-gsprite=12012
-fsprite=40001
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -205834,8 +205792,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="126,198"
-gsprite=12090
-fsprite=14131
+gsprite=12091
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
@@ -205845,7 +205802,6 @@ flag=MF_NEUTRAL
 
 field="127,198"
 gsprite=12091
-fsprite=14128
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
@@ -205854,12 +205810,12 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,198"
-gsprite=12092
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,198"
-gsprite=12090
+gsprite=12091
 flag=MF_PEACE
 
 field="130,198"
@@ -205867,7 +205823,7 @@ gsprite=12091
 flag=MF_PEACE
 
 field="131,198"
-gsprite=12092
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -207039,17 +206995,13 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,199"
-gsprite=12015
-fsprite=40002
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12091
+ch=teach2
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="120,199"
-gsprite=12013
-fsprite=40003
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -207057,8 +207009,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="121,199"
-gsprite=789327598
-fsprite=40000
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -207066,8 +207017,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="122,199"
-gsprite=12005
-fsprite=40001
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -207075,8 +207025,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="123,199"
-gsprite=12013
-fsprite=40002
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -207084,8 +207033,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="124,199"
-gsprite=12014
-fsprite=40003
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -207093,8 +207041,7 @@ flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 
 field="125,199"
-gsprite=12155
-fsprite=14121
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -207104,8 +207051,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,199"
-gsprite=12153
-fsprite=14122
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -207115,8 +207061,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,199"
-gsprite=12154
-fsprite=14123
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -207126,47 +207071,47 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,199"
-gsprite=793718511
+gsprite=12091
 flag=MF_PEACE
 
 field="129,199"
-gsprite=793718509
+gsprite=12091
 flag=MF_PEACE
 
 field="130,199"
-gsprite=793718510
+gsprite=12091
 flag=MF_PEACE
 
 field="131,199"
-gsprite=793718511
+gsprite=12091
 flag=MF_PEACE
 
 field="132,199"
-gsprite=793718509
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="133,199"
-gsprite=793718510
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="134,199"
-gsprite=793718531
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,199"
-gsprite=793718509
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,199"
-gsprite=793718510
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -208352,28 +208297,28 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,200"
-gsprite=12018
+gsprite=12091
+ch=teach1
+flag=MF_INDOORS
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="120,200"
-gsprite=12016
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,200"
-gsprite=12017
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,200"
-gsprite=789589746
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,200"
-gsprite=12016
-fsprite=14122
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -208383,8 +208328,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,200"
-gsprite=12157
-fsprite=14123
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -208394,8 +208338,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,200"
-gsprite=12158
-fsprite=14129
+gsprite=12091
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
@@ -208404,61 +208347,61 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,200"
-gsprite=12156
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,200"
-gsprite=796721152
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,200"
-gsprite=796864242
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,200"
-gsprite=12016
+gsprite=12091
 flag=MF_PEACE
 
 field="130,200"
-gsprite=12017
+gsprite=12091
 flag=MF_PEACE
 
 field="131,200"
-gsprite=12018
+gsprite=12091
 flag=MF_PEACE
 
 field="132,200"
-gsprite=12016
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="133,200"
-gsprite=12017
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="134,200"
-gsprite=12018
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,200"
-gsprite=12016
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,200"
-gsprite=12017
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -208474,7 +208417,6 @@ flag=MF_NEUTRAL
 
 field="138,200"
 gsprite=20333
-it=depot1
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -209647,28 +209589,28 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,201"
-gsprite=789196524
+gsprite=12091
+ch=teach0
+flag=MF_INDOORS
 flag=MF_PEACE
-flag=MF_NEUTRAL
 
 field="120,201"
-gsprite=12010
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,201"
-gsprite=12011
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,201"
-gsprite=12012
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,201"
-gsprite=12010
-fsprite=14121
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -209678,8 +209620,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,201"
-gsprite=12151
-fsprite=14122
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -209689,40 +209630,40 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,201"
-gsprite=12152
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,201"
-gsprite=12150
+gsprite=12091
 it=transport02
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,201"
-gsprite=796327936
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,201"
-gsprite=796864236
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,201"
-gsprite=12010
+gsprite=12091
 flag=MF_PEACE
 
 field="130,201"
-gsprite=12011
+gsprite=12091
 flag=MF_PEACE
 
 field="131,201"
-gsprite=12010
+gsprite=12091
 it=toylight
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -209743,13 +209684,13 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,201"
-gsprite=12011
+gsprite=12091
 it=toylight
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,201"
-gsprite=12011
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -209765,6 +209706,7 @@ flag=MF_NEUTRAL
 
 field="138,201"
 gsprite=20327
+it=depot1
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -210892,39 +210834,37 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,202"
-gsprite=12015
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="120,202"
-gsprite=12013
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,202"
-gsprite=12014
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,202"
-gsprite=12015
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,202"
-gsprite=12013
-fsprite=14120
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,202"
-gsprite=12154
-fsprite=14121
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -210934,39 +210874,39 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,202"
-gsprite=12155
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,202"
-gsprite=12153
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,202"
-gsprite=796524544
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,202"
-gsprite=796864239
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,202"
-gsprite=12013
+gsprite=12091
 flag=MF_PEACE
 
 field="130,202"
-gsprite=12014
+gsprite=12091
 flag=MF_PEACE
 
 field="131,202"
-gsprite=12013
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -210989,12 +210929,12 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,202"
-gsprite=12014
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,202"
-gsprite=12014
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -211010,7 +210950,6 @@ flag=MF_NEUTRAL
 
 field="138,202"
 gsprite=20330
-it=depot3
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -212255,19 +212194,13 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,203"
-gsprite=12016
-fsprite=14123
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,203"
-gsprite=12157
-fsprite=14120
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -212277,8 +212210,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,203"
-gsprite=12158
-fsprite=14128
+gsprite=12091
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
@@ -212287,33 +212219,33 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,203"
-gsprite=12156
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,203"
-gsprite=796721152
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,203"
-gsprite=796864242
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,203"
-gsprite=12016
+gsprite=12091
 flag=MF_PEACE
 
 field="130,203"
-gsprite=12017
+gsprite=12091
 flag=MF_PEACE
 
 field="131,203"
-gsprite=12016
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -212341,7 +212273,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,203"
-gsprite=12017
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -213547,18 +213479,13 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,204"
-gsprite=12010
-fsprite=14130
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,204"
-gsprite=12151
-fsprite=14123
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -213568,8 +213495,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,204"
-gsprite=12152
-fsprite=14120
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -213579,8 +213505,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,204"
-gsprite=12150
-fsprite=14121
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -213590,8 +213515,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,204"
-gsprite=12151
-fsprite=14122
+gsprite=12091
 flag=MF_SIGHTBLOCK
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
@@ -213601,19 +213525,19 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,204"
-gsprite=789196524
+gsprite=12091
 flag=MF_PEACE
 
 field="129,204"
-gsprite=12010
+gsprite=12091
 flag=MF_PEACE
 
 field="130,204"
-gsprite=12011
+gsprite=12091
 flag=MF_PEACE
 
 field="131,204"
-gsprite=12010
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -213641,7 +213565,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,204"
-gsprite=12011
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -214987,23 +214911,23 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,205"
-gsprite=12013
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,205"
-gsprite=12014
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,205"
-gsprite=12015
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,205"
-gsprite=12003
-fsprite=14130
+gsprite=12091
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
@@ -215012,8 +214936,7 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,205"
-gsprite=12014
-fsprite=14129
+gsprite=12091
 flag=MF_MOVEBLOCK
 flag=MF_INDOORS
 flag=MF_SOUNDBLOCK
@@ -215022,48 +214945,48 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,205"
-gsprite=12005
+gsprite=12091
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,205"
-gsprite=789262061
+gsprite=12091
 flag=MF_PEACE
 
 field="130,205"
-gsprite=12014
+gsprite=12091
 flag=MF_PEACE
 
 field="131,205"
-gsprite=12013
+gsprite=12091
 it=toylight
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="132,205"
-gsprite=-420598034
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="133,205"
-gsprite=12015
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="134,205"
-gsprite=12013
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,205"
-gsprite=12014
+gsprite=12091
 it=toylight
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,205"
-gsprite=12014
+gsprite=12091
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -216312,39 +216235,43 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,206"
-gsprite=12016
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,206"
 gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,206"
-gsprite=789589746
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,206"
-gsprite=12006
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,206"
-gsprite=12007
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,206"
-gsprite=12008
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,206"
-gsprite=12006
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -216356,13 +216283,13 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="131,206"
-gsprite=12018
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="132,206"
-gsprite=12016
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
@@ -216374,71 +216301,62 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="134,206"
-gsprite=12018
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,206"
-gsprite=12016
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,206"
 gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="137,206"
-fsprite=14093
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="138,206"
-gsprite=20333
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="139,206"
-gsprite=20334
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="140,206"
-gsprite=20335
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="141,206"
-gsprite=20333
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="142,206"
-gsprite=20334
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="143,206"
-fsprite=14091
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -217585,126 +217503,128 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,207"
-gsprite=12010
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,207"
-gsprite=12011
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,207"
-gsprite=789196524
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,207"
-gsprite=12000
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,207"
-gsprite=12001
-fsprite=16020
-flag=MF_MOVEBLOCK
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,207"
-gsprite=12002
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,207"
-gsprite=12000
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="130,207"
-gsprite=12011
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="131,207"
-gsprite=12012
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="132,207"
-gsprite=12010
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="133,207"
-gsprite=789130987
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="134,207"
-gsprite=12012
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,207"
-gsprite=12010
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,207"
-gsprite=12011
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="137,207"
-fsprite=14092
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="138,207"
-gsprite=20327
-fsprite=20158
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="139,207"
-gsprite=20328
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="140,207"
-gsprite=20329
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="141,207"
-gsprite=20327
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="142,207"
-gsprite=20328
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="143,207"
-fsprite=14090
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -218849,126 +218769,128 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,208"
-gsprite=12013
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,208"
-gsprite=12014
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,208"
-gsprite=12015
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,208"
-gsprite=12003
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,208"
-gsprite=12004
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="128,208"
-gsprite=12005
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,208"
-gsprite=12003
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="130,208"
-gsprite=12014
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="131,208"
-gsprite=12015
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="132,208"
-gsprite=12013
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="133,208"
-gsprite=12014
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="134,208"
-gsprite=12015
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,208"
-gsprite=12013
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="136,208"
-gsprite=12014
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="137,208"
-fsprite=14091
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="138,208"
-gsprite=20330
-fsprite=20158
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="139,208"
-gsprite=20331
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="140,208"
-gsprite=20332
-fsprite=20104
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="141,208"
-gsprite=20330
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="142,208"
-gsprite=20331
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="143,208"
-fsprite=14093
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -220158,104 +220080,82 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,209"
-gsprite=12016
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,209"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,209"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,209"
-gsprite=50077
-fsprite=16247
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_SOUNDBLOCK
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,209"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,209"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,209"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,209"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,209"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,209"
-gsprite=50077
-fsprite=16247
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_SOUNDBLOCK
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,209"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,209"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,209"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="136,209"
 gsprite=12017
@@ -220263,54 +220163,44 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="137,209"
-fsprite=14090
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="138,209"
-gsprite=20333
-fsprite=20158
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="139,209"
-gsprite=20334
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="140,209"
-gsprite=20335
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="141,209"
-gsprite=20333
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="142,209"
-gsprite=20334
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="143,209"
-fsprite=14092
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -221630,91 +221520,82 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,210"
-gsprite=12010
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,210"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,210"
-gsprite=20311
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,210"
-gsprite=20309
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,210"
-gsprite=20310
-fsprite=21068
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,210"
-gsprite=20311
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,210"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,210"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,210"
-gsprite=20311
-fsprite=1382830671
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,210"
-gsprite=20309
-fsprite=21070
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,210"
-gsprite=20310
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,210"
-gsprite=20311
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,210"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="136,210"
 gsprite=12011
@@ -221722,54 +221603,44 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="137,210"
-fsprite=14093
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="138,210"
-gsprite=20327
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="139,210"
-gsprite=20328
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="140,210"
-gsprite=20329
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="141,210"
-gsprite=20327
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="142,210"
-gsprite=20328
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="143,210"
-fsprite=14091
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -222964,79 +222835,82 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,211"
-gsprite=12013
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,211"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,211"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,211"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,211"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,211"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,211"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,211"
-gsprite=20313
-fsprite=21052
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,211"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,211"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,211"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,211"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,211"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="136,211"
 gsprite=12014
@@ -223044,72 +222918,44 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="137,211"
-fsprite=14092
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="138,211"
-fsprite=14093
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="139,211"
-fsprite=14090
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="140,211"
-fsprite=14091
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="141,211"
-fsprite=14092
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="142,211"
-fsprite=14093
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="143,211"
-fsprite=14090
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
-flag=MF_SHOUTBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -224335,77 +224181,82 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,212"
-gsprite=12016
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,212"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,212"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,212"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,212"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,212"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,212"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,212"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,212"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,212"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,212"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,212"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,212"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="136,212"
 gsprite=12017
@@ -225744,77 +225595,82 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,213"
-gsprite=12010
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,213"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,213"
-gsprite=20311
-fsprite=21066
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,213"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,213"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,213"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,213"
-gsprite=20309
-it=mr_wood_door_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,213"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,213"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,213"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,213"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,213"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,213"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="136,213"
 gsprite=12011
@@ -227028,79 +226884,82 @@ gsprite=12015
 flag=MF_PEACE
 
 field="123,214"
-gsprite=12013
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,214"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,214"
-gsprite=20314
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,214"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,214"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,214"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,214"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,214"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,214"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,214"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,214"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,214"
-gsprite=20314
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,214"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="136,214"
 gsprite=12014
@@ -228196,107 +228055,80 @@ gsprite=12018
 flag=MF_PEACE
 
 field="123,215"
-gsprite=12016
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,215"
-gsprite=30067
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,215"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,215"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,215"
-gsprite=20316
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,215"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,215"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,215"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,215"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,215"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,215"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,215"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,215"
-gsprite=12016
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -229367,90 +229199,80 @@ gsprite=12012
 flag=MF_PEACE
 
 field="123,216"
-gsprite=12010
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,216"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,216"
-gsprite=20311
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,216"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,216"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,216"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,216"
-gsprite=20309
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,216"
-gsprite=20310
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,216"
-gsprite=20311
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,216"
-gsprite=20309
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,216"
-gsprite=20310
-fsprite=21068
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,216"
-gsprite=20311
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,216"
-gsprite=12010
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -230464,194 +230286,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,217"
-gsprite=30065
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,217"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,217"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,217"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,217"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,217"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,217"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,217"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,217"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,217"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,217"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,217"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,217"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,217"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,217"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,217"
-gsprite=20314
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,217"
-gsprite=20312
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,217"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,217"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,217"
-gsprite=20312
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,217"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,217"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,217"
-gsprite=20312
-ch=teach2
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,217"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,217"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,217"
-gsprite=12013
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -231667,168 +231453,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,218"
-gsprite=30062
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,218"
-gsprite=20315
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,218"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,218"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,218"
-gsprite=20315
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,218"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,218"
-gsprite=20317
-fsprite=21071
-it=mr_candle2
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,218"
-gsprite=20315
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,218"
-gsprite=20316
-fsprite=21068
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,218"
-gsprite=20317
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,218"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,218"
-gsprite=20316
-fsprite=21067
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,218"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,218"
-gsprite=20315
-fsprite=21061
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,218"
-gsprite=20316
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,218"
-gsprite=20317
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,218"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,218"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,218"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,218"
-gsprite=20315
-it=mr_wood_door_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,218"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,218"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,218"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,218"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,218"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,218"
-gsprite=12016
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -232834,156 +232610,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,219"
-gsprite=30062
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,219"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,219"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,219"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,219"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,219"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,219"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,219"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,219"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,219"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,219"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,219"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,219"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,219"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,219"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,219"
-gsprite=20311
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,219"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,219"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,219"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,219"
-gsprite=20309
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,219"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,219"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,219"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,219"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,219"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,219"
-gsprite=12010
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -233988,163 +233766,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,220"
-gsprite=20441
-fsprite=16246
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_SOUNDBLOCK
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,220"
-gsprite=20312
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,220"
-gsprite=20313
-fsprite=1382961743
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,220"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,220"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,220"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,220"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,220"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,220"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,220"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,220"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,220"
-gsprite=20313
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,220"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,220"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,220"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,220"
-gsprite=20314
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,220"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,220"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,220"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,220"
-gsprite=20312
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,220"
-gsprite=20313
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,220"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,220"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,220"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,220"
-gsprite=20314
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,220"
-gsprite=12013
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -235283,180 +235056,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,221"
-gsprite=30068
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,221"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,221"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,221"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,221"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,221"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,221"
-gsprite=20317
-fsprite=21066
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,221"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,221"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,221"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,221"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,221"
-gsprite=20316
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,221"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,221"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,221"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,221"
-gsprite=20317
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,221"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,221"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,221"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,221"
-gsprite=20315
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,221"
-gsprite=20316
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,221"
-gsprite=20317
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,221"
-gsprite=20315
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,221"
-gsprite=20316
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,221"
-gsprite=20317
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,221"
-gsprite=12016
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -236780,164 +236531,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,222"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="111,222"
-gsprite=20309
-fsprite=21066
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,222"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,222"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,222"
-gsprite=20309
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,222"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,222"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,222"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,222"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,222"
-gsprite=20311
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,222"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,222"
-gsprite=20310
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,222"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,222"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,222"
-gsprite=20310
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,222"
-gsprite=20311
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,222"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,222"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,222"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,222"
-gsprite=20309
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,222"
-gsprite=20310
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,222"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,222"
-gsprite=20309
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,222"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,222"
-gsprite=20311
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,222"
-gsprite=12010
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -237938,194 +237683,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,223"
-gsprite=30065
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,223"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,223"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,223"
-gsprite=20314
-it=mr_wood_door_ls
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,223"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,223"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,223"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,223"
-gsprite=20312
-it=mr_wood_door_ls
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,223"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,223"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,223"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,223"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,223"
-gsprite=20314
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,223"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,223"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,223"
-gsprite=20314
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,223"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,223"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,223"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,223"
-gsprite=20312
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,223"
-gsprite=20313
-fsprite=21067
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,223"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,223"
-gsprite=20312
-fsprite=1382961743
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,223"
-gsprite=20313
-ch=teach1
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,223"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,223"
-gsprite=12013
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -239124,149 +238833,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,224"
-gsprite=30068
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,224"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,224"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,224"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,224"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,224"
-gsprite=20316
-it=mr_walltorch_on_ls
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,224"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,224"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,224"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,224"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,224"
-gsprite=20315
-it=mr_walltorch_on_ls
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,224"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,224"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,224"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,224"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,224"
-gsprite=20317
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,224"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,224"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,224"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,224"
-gsprite=20315
-it=mr_wood_door_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,224"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,224"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,224"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,224"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,224"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,224"
-gsprite=12016
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -240335,150 +240053,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,225"
-gsprite=20441
-fsprite=16246
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_SOUNDBLOCK
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,225"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,225"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,225"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,225"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,225"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,225"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,225"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,225"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,225"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,225"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,225"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,225"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,225"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,225"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,225"
-gsprite=20311
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,225"
-gsprite=20309
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,225"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,225"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,225"
-gsprite=20309
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,225"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,225"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,225"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,225"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,225"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,225"
-gsprite=12010
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -241570,152 +241296,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,226"
-gsprite=12015
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,226"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,226"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,226"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,226"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,226"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,226"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,226"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,226"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,226"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,226"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,226"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,226"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,226"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,226"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,226"
-gsprite=20314
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,226"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,226"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,226"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,226"
-gsprite=20312
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,226"
-gsprite=20313
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,226"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,226"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,226"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,226"
-gsprite=20314
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,226"
-gsprite=12013
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -242755,220 +242487,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,227"
-gsprite=30068
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,227"
-gsprite=20315
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="112,227"
-gsprite=20316
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="113,227"
-gsprite=20317
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="114,227"
-gsprite=20315
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="115,227"
-gsprite=20316
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="116,227"
-gsprite=20317
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="117,227"
-gsprite=20315
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="118,227"
-gsprite=20316
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="119,227"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,227"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,227"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,227"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,227"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,227"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,227"
-gsprite=20317
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,227"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,227"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,227"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,227"
-gsprite=20315
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,227"
-gsprite=20316
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,227"
-gsprite=20317
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,227"
-gsprite=20315
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,227"
-gsprite=20316
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,227"
-gsprite=20317
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,227"
-gsprite=12016
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -244007,171 +243677,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,228"
-gsprite=30062
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,228"
-gsprite=20291
-it=mr_walltorch_on_ls
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,228"
-gsprite=20292
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,228"
-gsprite=20293
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,228"
-gsprite=20291
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,228"
-gsprite=20292
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,228"
-gsprite=20293
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,228"
-gsprite=20291
-it=mr_walltorch_on_ls
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,228"
-gsprite=30061
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,228"
-gsprite=20311
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,228"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,228"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,228"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,228"
-gsprite=20309
-fsprite=21061
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,228"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,228"
-gsprite=20311
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,228"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,228"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,228"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,228"
-gsprite=20309
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,228"
-gsprite=20310
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,228"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,228"
-gsprite=20309
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,228"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,228"
-gsprite=20311
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,228"
-gsprite=12010
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -245317,167 +244974,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,229"
-gsprite=30065
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,229"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,229"
-gsprite=20295
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,229"
-gsprite=20296
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,229"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,229"
-gsprite=20295
-fsprite=20158
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,229"
-gsprite=20296
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,229"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,229"
-gsprite=30064
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,229"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,229"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,229"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,229"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,229"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,229"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,229"
-gsprite=20314
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,229"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,229"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,229"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,229"
-gsprite=20312
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,229"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,229"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,229"
-gsprite=20312
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,229"
-gsprite=20313
-ch=teach5
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,229"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,229"
-gsprite=12013
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -246555,161 +246203,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,230"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="111,230"
-gsprite=20297
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,230"
-gsprite=20298
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,230"
-gsprite=20299
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,230"
-gsprite=20297
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,230"
-gsprite=20298
-fsprite=20158
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,230"
-gsprite=20299
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,230"
-gsprite=20297
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,230"
-gsprite=30067
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,230"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,230"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,230"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,230"
-gsprite=20317
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,230"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,230"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,230"
-gsprite=20317
-it=mr_wood_door_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,230"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,230"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,230"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,230"
-gsprite=20315
-it=mr_wood_door_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,230"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,230"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,230"
-gsprite=20315
-fsprite=21067
-it=mr_candle2
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,230"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,230"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,230"
-gsprite=30066
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -247922,169 +247567,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,231"
-gsprite=30062
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,231"
-gsprite=20291
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,231"
-gsprite=20292
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,231"
-gsprite=20293
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,231"
-gsprite=20291
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,231"
-gsprite=20292
-fsprite=20158
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,231"
-gsprite=20293
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,231"
-gsprite=20291
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,231"
-gsprite=30061
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,231"
-gsprite=20311
-fsprite=21066
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,231"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,231"
-gsprite=20310
-ch=teach4
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,231"
-gsprite=20311
-fsprite=21070
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,231"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,231"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,231"
-gsprite=20311
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,231"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,231"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,231"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,231"
-gsprite=20309
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,231"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,231"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,231"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,231"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,231"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,231"
-gsprite=30060
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -249167,168 +248801,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,232"
-gsprite=30065
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,232"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,232"
-gsprite=20295
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,232"
-gsprite=20296
-it=mr_walltorch_on_dh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,232"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,232"
-gsprite=20295
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,232"
-gsprite=20296
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,232"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,232"
-gsprite=30064
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,232"
-gsprite=20314
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,232"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,232"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,232"
-gsprite=20314
-fsprite=1382830671
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,232"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,232"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,232"
-gsprite=20314
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,232"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,232"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,232"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,232"
-gsprite=20312
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,232"
-gsprite=20313
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,232"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,232"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,232"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,232"
-gsprite=20314
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,232"
-gsprite=30063
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -250399,213 +250023,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,233"
-gsprite=30068
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,233"
-gsprite=20297
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,233"
-gsprite=20298
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,233"
-gsprite=20299
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,233"
-gsprite=20297
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,233"
-gsprite=20298
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,233"
-gsprite=20299
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,233"
-gsprite=20297
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,233"
-gsprite=30067
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,233"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,233"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,233"
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,233"
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,233"
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,233"
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,233"
-gsprite=20317
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,233"
-gsprite=20315
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,233"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,233"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,233"
-gsprite=20315
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,233"
-gsprite=20316
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,233"
-gsprite=20317
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,233"
-gsprite=20315
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,233"
-gsprite=20316
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,233"
-gsprite=20317
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,233"
-gsprite=30066
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -251678,176 +251247,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,234"
-gsprite=30062
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,234"
-gsprite=20291
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,234"
-gsprite=20292
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,234"
-gsprite=20293
-it=mr_walltorch_on_ls
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,234"
-gsprite=20291
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,234"
-gsprite=20292
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,234"
-gsprite=20293
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,234"
-gsprite=20291
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,234"
-gsprite=30061
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,234"
-gsprite=20311
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,234"
-gsprite=20309
-fsprite=21061
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,234"
-gsprite=20310
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,234"
-gsprite=20311
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,234"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,234"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,234"
-gsprite=20311
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,234"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,234"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,234"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,234"
-gsprite=20309
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,234"
-gsprite=20310
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,234"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,234"
-gsprite=20309
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,234"
-gsprite=20310
-fsprite=21071
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,234"
-gsprite=20311
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,234"
-gsprite=30060
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -252891,158 +252442,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,235"
-gsprite=30065
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,235"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,235"
-gsprite=20295
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,235"
-gsprite=20296
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,235"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,235"
-gsprite=20295
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,235"
-gsprite=20296
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,235"
-gsprite=20294
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,235"
-gsprite=30064
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,235"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,235"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,235"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,235"
-gsprite=20314
-ch=teach0
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,235"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,235"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,235"
-gsprite=20314
-it=mr_wood_door_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,235"
-gsprite=20312
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,235"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,235"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,235"
-gsprite=20312
-it=mr_wood_door_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,235"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,235"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,235"
-gsprite=20314
-ch=teach3
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,235"
-gsprite=20313
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,235"
-gsprite=20314
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,235"
-gsprite=30063
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -254079,164 +253630,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,236"
-gsprite=30068
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,236"
-gsprite=20297
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,236"
-gsprite=20298
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,236"
-gsprite=20299
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,236"
-gsprite=20297
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,236"
-gsprite=20298
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,236"
-gsprite=20299
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,236"
-gsprite=20297
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,236"
-gsprite=30067
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,236"
-gsprite=20317
-fsprite=21066
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,236"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,236"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,236"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,236"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,236"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,236"
-gsprite=20317
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,236"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,236"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,236"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,236"
-gsprite=20315
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,236"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,236"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,236"
-gsprite=20315
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,236"
-gsprite=20316
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,236"
-gsprite=20317
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,236"
-gsprite=30066
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -255271,167 +254816,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,237"
-gsprite=30062
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,237"
-gsprite=20291
-it=mr_walltorch_on_dh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,237"
-gsprite=20292
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,237"
-gsprite=20293
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,237"
-gsprite=20291
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,237"
-gsprite=20292
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,237"
-gsprite=20293
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,237"
-gsprite=20291
-it=mr_walltorch_on_dh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,237"
-gsprite=30061
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,237"
-gsprite=20311
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="120,237"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="121,237"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="122,237"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="123,237"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="124,237"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="125,237"
-gsprite=20311
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="126,237"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="127,237"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,237"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="129,237"
-gsprite=20309
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="130,237"
-gsprite=20310
-it=mr_walltorch_on_ds
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="131,237"
-gsprite=20311
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="132,237"
-gsprite=20309
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="133,237"
-gsprite=20310
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="134,237"
-gsprite=20311
-it=mr_walltorch_on_lh
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="135,237"
-gsprite=30060
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
@@ -256476,255 +256012,158 @@ flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="110,238"
-gsprite=30065
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="111,238"
-gsprite=30063
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="112,238"
-gsprite=30064
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="113,238"
-gsprite=30065
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="114,238"
-gsprite=50077
-fsprite=16245
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_SOUNDBLOCK
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="115,238"
-gsprite=30064
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="116,238"
-gsprite=30065
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="117,238"
-gsprite=30063
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="118,238"
-gsprite=30064
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="119,238"
-gsprite=30065
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="120,238"
-gsprite=30063
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="121,238"
-gsprite=30064
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="122,238"
-gsprite=50077
-fsprite=16245
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_SOUNDBLOCK
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="123,238"
-gsprite=30063
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="124,238"
-gsprite=30063
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="125,238"
-gsprite=30065
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="126,238"
-gsprite=30063
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="127,238"
-gsprite=20313
-it=mr_wood_door_ls
+gsprite=12017
 flag=MF_INDOORS
 flag=MF_PEACE
+flag=MF_NEUTRAL
 
 field="128,238"
-gsprite=30065
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="129,238"
-gsprite=30063
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="130,238"
-gsprite=30064
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="131,238"
-gsprite=50077
-fsprite=16245
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
-flag=MF_SOUNDBLOCK
+gsprite=12017
+flag=MF_INDOORS
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="132,238"
-gsprite=30063
-fsprite=20437
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="133,238"
-gsprite=30064
-fsprite=20438
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="134,238"
-gsprite=30065
-fsprite=20439
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 
 field="135,238"
-gsprite=30063
-fsprite=20440
-flag=MF_SIGHTBLOCK
-flag=MF_MOVEBLOCK
+gsprite=12017
 flag=MF_INDOORS
-flag=MF_SOUNDBLOCK
 flag=MF_PEACE
 flag=MF_NEUTRAL
 

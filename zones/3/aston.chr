@@ -2477,7 +2477,7 @@ group=1
 
 
 teach0:
-name="Teacher"
+name="Smith"
 description="A young man with a quick smile."
 sprite=13
 sound=1
@@ -2540,7 +2540,7 @@ group=1
 ;
 
 teach1:
-name="Teacher"
+name="Alchemist"
 description="A young man with a quick smile."
 sprite=13
 sound=1
@@ -2603,7 +2603,7 @@ group=1
 ;
 
 teach2:
-name="Teacher"
+name="Miner"
 description="A young man with a quick smile."
 sprite=13
 sound=1
@@ -2666,7 +2666,7 @@ group=1
 ;
 
 teach3:
-name="Teacher"
+name="Enchancer"
 description="A young man with a quick smile."
 sprite=13
 sound=1
@@ -2729,7 +2729,7 @@ group=1
 ;
 
 teach4:
-name="Teacher"
+name="Mercenary"
 description="A young man with a quick smile."
 sprite=13
 sound=1
@@ -2792,7 +2792,7 @@ group=1
 ;
 
 teach5:
-name="Teacher"
+name="Trader"
 description="A young man with a quick smile."
 sprite=13
 sound=1
@@ -2855,7 +2855,7 @@ group=1
 ;
 
 teach6:
-name="Teacher"
+name="Athlete"
 description="A young man with a quick smile."
 sprite=13
 sound=1

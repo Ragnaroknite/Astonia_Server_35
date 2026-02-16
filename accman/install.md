@@ -8,7 +8,7 @@
 ## Setup
 1. Edit `accman/config.php` with your database credentials.
 2. Start the service: `./start.sh`
-3. Open `http://<server-ip>:8088` in your browser.
+3. Open `http://<192.168.4.44>:8088` in your browser.
 
 ## Stop
 - Run `./stop.sh`
