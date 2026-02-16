@@ -2,7 +2,7 @@
  * Part of Astonia Server 3.5 (c) Daniel Brockhaus. Please read license.txt.
  */
 
-#define TICKS 30 // number of ticks per second, used for all time calculations in server code. 24 is the original value, but it can be changed to e.g. 100 for easier calculations and less cpu usage
+#define TICKS 24 // number of ticks per second, used for all time calculations in server code. 24 is the original value, but it can be changed
 #define TICK (1000000ull / TICKS) // length of a tick in microseconds, used for sleeping and time calculations
 
 #define ITEM_DECAY_TIME (5 * 60 * TICKS) // time an item which was placed on the ground takes before it gets destroyed
@@ -11,7 +11,7 @@
 #define NPC_BODY_DECAY_TIME_AREA32 (15 * 60 * TICKS) // time a NPC body takes before getting destroyed (area 32)
 #define RESPAWN_TIME (1 * 60 * TICKS) // respawn time of NPCs - can be overriden by giving a respawn=xxx statement in the character definition
 #define LAGOUT_TIME (55 * 60 * TICKS) // time it takes to lag out (time difference between loss of connection and removal of character from server)
-#define REGEN_TIME (0.025 * TICKS) // time character has to be idle to start regenerating
+#define REGEN_TIME ( 1 * TICKS) // time character has to be idle to start regenerating
 
 #define max(a, b) ((a) > (b) ? (a) : (b))
 #define min(a, b) ((a) < (b) ? (a) : (b))
@@ -162,7 +162,7 @@ extern struct map *map;
 #define IF_WEAPON (IF_AXE | IF_DAGGER | IF_HAND | IF_STAFF | IF_SWORD | IF_TWOHAND)
 #define IF_WEAR (IF_WNHEAD | IF_WNNECK | IF_WNBODY | IF_WNARMS | IF_WNBELT | IF_WNLEGS | IF_WNFEET | IF_WNLHAND | IF_WNRHAND | IF_WNCLOAK | IF_WNLRING | IF_WNRRING)
 
-#define MAXMOD 5
+#define MAXMOD 9
 
 #define IT_DR_SIZE 40
 
@@ -336,7 +336,7 @@ extern struct item *it;
 #define SM_FAST 1
 #define SM_STEALTH 2
 
-#define INVENTORYSIZE 144
+#define INVENTORYSIZE 140
 
 // driver data block definition
 struct data {
