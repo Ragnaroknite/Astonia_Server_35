@@ -426,10 +426,9 @@ int do_attack(int cn, int dir, int co) {
 
     ch[cn].action = AC_ATTACK1 + RANDOM(3);
     ch[cn].act1 = co;
-	//Changing Speed during combat
-	ch[cn].duration = speed(ch[cn].value[0][V_SPEED], ch[cn].speed_mode, DUR_COMBAT_ACTION);
-
-
+	if(ch[cn].value[0][P_ATHLETE] > 0) ch[cn].duration = speed(ch[cn].value[0][V_SPEED], ch[cn].speed_mode, DUR_COMBAT_ACTION - 2);    
+    if (ch[cn].speed_mode == SM_FAST & ch[cn].value[0][P_ATHLETE] > 0) ch[cn].endurance -= end_cost(cn);
+    else ch[cn].duration = speed(ch[cn].value[0][V_SPEED], ch[cn].speed_mode, DUR_COMBAT_ACTION);
     if (ch[cn].speed_mode == SM_FAST) ch[cn].endurance -= end_cost(cn) * 2;
 
     ch[cn].dir = dir;
