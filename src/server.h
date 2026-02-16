@@ -315,6 +315,7 @@ extern struct item *it;
 #define P_ENHANCER 3
 #define P_MERCENARY 4
 #define P_TRADER 5
+#define P_ATHLETE 6
 #define P_MAX 10
 
 #define LENDESC 160
@@ -333,10 +334,10 @@ extern struct item *it;
 #define WN_LRING 11
 
 #define SM_NORMAL 0
-#define SM_FAST 1
-#define SM_STEALTH 2
+#define SM_FAST 1 
+#define SM_STEALTH 2 
 
-#define INVENTORYSIZE 140
+#define INVENTORYSIZE 70 // 12 wear, 18 spell, 40 backpack
 
 // driver data block definition
 struct data {

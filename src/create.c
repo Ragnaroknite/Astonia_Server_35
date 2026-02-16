@@ -275,7 +275,7 @@ static char *P_tab[P_MAX] = {
     "P_ENHANCER", //3
     "P_MERCENARY", //4
     "P_TRADER", //5
-    "P_NULL", //6
+    "P_ATHLETE", //6 
     "P_NULL", //7
     "P_NULL", //8
     "P_NULL" //9

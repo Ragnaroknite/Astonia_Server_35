@@ -14,7 +14,7 @@ struct prof prof[P_MAX] = {
     {"Enhancer", 5, 25, 5}, // 3
     {"Mercenary", 5, 25, 5}, // 4
     {"Trader", 5, 25, 5}, // 5
-    {"empty", 4, 20, 2}, // 6
+    {"Athlete", 4, 20, 2}, // 6
     {"empty", 1, 30, 1}, // 7
     {"empty", 3, 30, 1}, // 8
     {"empty", 3, 30, 1}, // 9

@@ -67,7 +67,8 @@ struct qa qa[] = {
     {{"miner", NULL}, NULL, 3},
     {{"enhancer", NULL}, NULL, 3},
     {{"trader", NULL}, NULL, 3},
-    {{"mercenary", NULL}, NULL, 3}};
+    {{"mercenary", NULL}, NULL, 3},
+    {{"athlete", NULL}, NULL, 3},};
 
 void lowerstrcpy(char *dst, char *src) {
     while (*src) *dst++ = tolower(*src++);
@@ -312,6 +313,9 @@ void professor_driver(int cn, int ret, int lastact) {
                     break;
                 case P_MERCENARY:
                     say(cn, "Those skilled in the art of the mercenary will collect pay for their missions.");
+                    break;
+                case P_ATHLETE:
+                    say(cn, "An athlete is a master of physical fitness, allowing him to endure more and recover faster.");
                     break;
 
                 default:
